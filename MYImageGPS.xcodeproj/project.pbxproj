@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2C494761E83765A00BE44C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C494751E83765A00BE44C0 /* main.m */; };
+		A2C494791E83765A00BE44C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C494781E83765A00BE44C0 /* AppDelegate.m */; };
+		A2C4947C1E83765A00BE44C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C4947B1E83765A00BE44C0 /* ViewController.m */; };
+		A2C4947F1E83765A00BE44C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C4947D1E83765A00BE44C0 /* Main.storyboard */; };
+		A2C494811E83765A00BE44C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C494801E83765A00BE44C0 /* Assets.xcassets */; };
+		A2C494841E83765A00BE44C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C494821E83765A00BE44C0 /* LaunchScreen.storyboard */; };
+		A2C4948F1E83765A00BE44C0 /* MYImageGPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C4948E1E83765A00BE44C0 /* MYImageGPSTests.m */; };
+		A2C4949A1E83765A00BE44C0 /* MYImageGPSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C494991E83765A00BE44C0 /* MYImageGPSUITests.m */; };
+		A2C494A91E83769300BE44C0 /* MYGPSExif.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C494A81E83769300BE44C0 /* MYGPSExif.m */; };
+		A2C494AC1E8376D900BE44C0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C494AB1E8376D900BE44C0 /* ImageIO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C4948B1E83765A00BE44C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C494691E83765A00BE44C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C494701E83765A00BE44C0;
+			remoteInfo = MYImageGPS;
+		};
+		A2C494961E83765A00BE44C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C494691E83765A00BE44C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C494701E83765A00BE44C0;
+			remoteInfo = MYImageGPS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2C494711E83765A00BE44C0 /* MYImageGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYImageGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C494751E83765A00BE44C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2C494771E83765A00BE44C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2C494781E83765A00BE44C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2C4947A1E83765A00BE44C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2C4947B1E83765A00BE44C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2C4947E1E83765A00BE44C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2C494801E83765A00BE44C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2C494831E83765A00BE44C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2C494851E83765A00BE44C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C4948A1E83765A00BE44C0 /* MYImageGPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYImageGPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C4948E1E83765A00BE44C0 /* MYImageGPSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageGPSTests.m; sourceTree = "<group>"; };
+		A2C494901E83765A00BE44C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C494951E83765A00BE44C0 /* MYImageGPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYImageGPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C494991E83765A00BE44C0 /* MYImageGPSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageGPSUITests.m; sourceTree = "<group>"; };
+		A2C4949B1E83765A00BE44C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C494A71E83769300BE44C0 /* MYGPSExif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGPSExif.h; sourceTree = "<group>"; };
+		A2C494A81E83769300BE44C0 /* MYGPSExif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGPSExif.m; sourceTree = "<group>"; };
+		A2C494AB1E8376D900BE44C0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C4946E1E83765A00BE44C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C494AC1E8376D900BE44C0 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C494871E83765A00BE44C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C494921E83765A00BE44C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2C494681E83765A00BE44C0 = {
+			isa = PBXGroup;
+			children = (
+				A2C494731E83765A00BE44C0 /* MYImageGPS */,
+				A2C4948D1E83765A00BE44C0 /* MYImageGPSTests */,
+				A2C494981E83765A00BE44C0 /* MYImageGPSUITests */,
+				A2C494721E83765A00BE44C0 /* Products */,
+				A2C494AA1E8376D900BE44C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C494721E83765A00BE44C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C494711E83765A00BE44C0 /* MYImageGPS.app */,
+				A2C4948A1E83765A00BE44C0 /* MYImageGPSTests.xctest */,
+				A2C494951E83765A00BE44C0 /* MYImageGPSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C494731E83765A00BE44C0 /* MYImageGPS */ = {
+			isa = PBXGroup;
+			children = (
+				A2C494771E83765A00BE44C0 /* AppDelegate.h */,
+				A2C494781E83765A00BE44C0 /* AppDelegate.m */,
+				A2C4947A1E83765A00BE44C0 /* ViewController.h */,
+				A2C4947B1E83765A00BE44C0 /* ViewController.m */,
+				A2C4947D1E83765A00BE44C0 /* Main.storyboard */,
+				A2C494801E83765A00BE44C0 /* Assets.xcassets */,
+				A2C494821E83765A00BE44C0 /* LaunchScreen.storyboard */,
+				A2C494851E83765A00BE44C0 /* Info.plist */,
+				A2C494741E83765A00BE44C0 /* Supporting Files */,
+				A2C494A71E83769300BE44C0 /* MYGPSExif.h */,
+				A2C494A81E83769300BE44C0 /* MYGPSExif.m */,
+			);
+			path = MYImageGPS;
+			sourceTree = "<group>";
+		};
+		A2C494741E83765A00BE44C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C494751E83765A00BE44C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2C4948D1E83765A00BE44C0 /* MYImageGPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C4948E1E83765A00BE44C0 /* MYImageGPSTests.m */,
+				A2C494901E83765A00BE44C0 /* Info.plist */,
+			);
+			path = MYImageGPSTests;
+			sourceTree = "<group>";
+		};
+		A2C494981E83765A00BE44C0 /* MYImageGPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C494991E83765A00BE44C0 /* MYImageGPSUITests.m */,
+				A2C4949B1E83765A00BE44C0 /* Info.plist */,
+			);
+			path = MYImageGPSUITests;
+			sourceTree = "<group>";
+		};
+		A2C494AA1E8376D900BE44C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2C494AB1E8376D900BE44C0 /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C494701E83765A00BE44C0 /* MYImageGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C4949E1E83765A00BE44C0 /* Build configuration list for PBXNativeTarget "MYImageGPS" */;
+			buildPhases = (
+				A2C4946D1E83765A00BE44C0 /* Sources */,
+				A2C4946E1E83765A00BE44C0 /* Frameworks */,
+				A2C4946F1E83765A00BE44C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYImageGPS;
+			productName = MYImageGPS;
+			productReference = A2C494711E83765A00BE44C0 /* MYImageGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2C494891E83765A00BE44C0 /* MYImageGPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C494A11E83765A00BE44C0 /* Build configuration list for PBXNativeTarget "MYImageGPSTests" */;
+			buildPhases = (
+				A2C494861E83765A00BE44C0 /* Sources */,
+				A2C494871E83765A00BE44C0 /* Frameworks */,
+				A2C494881E83765A00BE44C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C4948C1E83765A00BE44C0 /* PBXTargetDependency */,
+			);
+			name = MYImageGPSTests;
+			productName = MYImageGPSTests;
+			productReference = A2C4948A1E83765A00BE44C0 /* MYImageGPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2C494941E83765A00BE44C0 /* MYImageGPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C494A41E83765A00BE44C0 /* Build configuration list for PBXNativeTarget "MYImageGPSUITests" */;
+			buildPhases = (
+				A2C494911E83765A00BE44C0 /* Sources */,
+				A2C494921E83765A00BE44C0 /* Frameworks */,
+				A2C494931E83765A00BE44C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C494971E83765A00BE44C0 /* PBXTargetDependency */,
+			);
+			name = MYImageGPSUITests;
+			productName = MYImageGPSUITests;
+			productReference = A2C494951E83765A00BE44C0 /* MYImageGPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C494691E83765A00BE44C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jiahedeng;
+				TargetAttributes = {
+					A2C494701E83765A00BE44C0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48675G997Y;
+						ProvisioningStyle = Automatic;
+					};
+					A2C494891E83765A00BE44C0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48675G997Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2C494701E83765A00BE44C0;
+					};
+					A2C494941E83765A00BE44C0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48675G997Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2C494701E83765A00BE44C0;
+					};
+				};
+			};
+			buildConfigurationList = A2C4946C1E83765A00BE44C0 /* Build configuration list for PBXProject "MYImageGPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2C494681E83765A00BE44C0;
+			productRefGroup = A2C494721E83765A00BE44C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C494701E83765A00BE44C0 /* MYImageGPS */,
+				A2C494891E83765A00BE44C0 /* MYImageGPSTests */,
+				A2C494941E83765A00BE44C0 /* MYImageGPSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C4946F1E83765A00BE44C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C494841E83765A00BE44C0 /* LaunchScreen.storyboard in Resources */,
+				A2C494811E83765A00BE44C0 /* Assets.xcassets in Resources */,
+				A2C4947F1E83765A00BE44C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C494881E83765A00BE44C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C494931E83765A00BE44C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C4946D1E83765A00BE44C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C4947C1E83765A00BE44C0 /* ViewController.m in Sources */,
+				A2C494791E83765A00BE44C0 /* AppDelegate.m in Sources */,
+				A2C494A91E83769300BE44C0 /* MYGPSExif.m in Sources */,
+				A2C494761E83765A00BE44C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C494861E83765A00BE44C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C4948F1E83765A00BE44C0 /* MYImageGPSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C494911E83765A00BE44C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C4949A1E83765A00BE44C0 /* MYImageGPSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C4948C1E83765A00BE44C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C494701E83765A00BE44C0 /* MYImageGPS */;
+			targetProxy = A2C4948B1E83765A00BE44C0 /* PBXContainerItemProxy */;
+		};
+		A2C494971E83765A00BE44C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C494701E83765A00BE44C0 /* MYImageGPS */;
+			targetProxy = A2C494961E83765A00BE44C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2C4947D1E83765A00BE44C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C4947E1E83765A00BE44C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2C494821E83765A00BE44C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C494831E83765A00BE44C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2C4949C1E83765A00BE44C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2C4949D1E83765A00BE44C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C4949F1E83765A00BE44C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48675G997Y;
+				INFOPLIST_FILE = MYImageGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pongo.MYImageGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2C494A01E83765A00BE44C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48675G997Y;
+				INFOPLIST_FILE = MYImageGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pongo.MYImageGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2C494A21E83765A00BE44C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48675G997Y;
+				INFOPLIST_FILE = MYImageGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pongo.MYImageGPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYImageGPS.app/MYImageGPS";
+			};
+			name = Debug;
+		};
+		A2C494A31E83765A00BE44C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48675G997Y;
+				INFOPLIST_FILE = MYImageGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pongo.MYImageGPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYImageGPS.app/MYImageGPS";
+			};
+			name = Release;
+		};
+		A2C494A51E83765A00BE44C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 48675G997Y;
+				INFOPLIST_FILE = MYImageGPSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pongo.MYImageGPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MYImageGPS;
+			};
+			name = Debug;
+		};
+		A2C494A61E83765A00BE44C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 48675G997Y;
+				INFOPLIST_FILE = MYImageGPSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pongo.MYImageGPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MYImageGPS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C4946C1E83765A00BE44C0 /* Build configuration list for PBXProject "MYImageGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C4949C1E83765A00BE44C0 /* Debug */,
+				A2C4949D1E83765A00BE44C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C4949E1E83765A00BE44C0 /* Build configuration list for PBXNativeTarget "MYImageGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C4949F1E83765A00BE44C0 /* Debug */,
+				A2C494A01E83765A00BE44C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2C494A11E83765A00BE44C0 /* Build configuration list for PBXNativeTarget "MYImageGPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C494A21E83765A00BE44C0 /* Debug */,
+				A2C494A31E83765A00BE44C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2C494A41E83765A00BE44C0 /* Build configuration list for PBXNativeTarget "MYImageGPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C494A51E83765A00BE44C0 /* Debug */,
+				A2C494A61E83765A00BE44C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2C494691E83765A00BE44C0 /* Project object */;
+}
