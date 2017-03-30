@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2C2CD8F1E8CD46A00E2FB5F /* MYGPSExif.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C2CD761E8CD46A00E2FB5F /* MYGPSExif.m */; };
+		A2C2CD901E8CD46A00E2FB5F /* MYAdressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C2CD7B1E8CD46A00E2FB5F /* MYAdressViewController.m */; };
+		A2C2CD911E8CD46A00E2FB5F /* MYAdressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C2CD7C1E8CD46A00E2FB5F /* MYAdressViewController.xib */; };
+		A2C2CD941E8CD46A00E2FB5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C2CD851E8CD46A00E2FB5F /* ViewController.m */; };
+		A2C2CD951E8CD46A00E2FB5F /* MYInformationImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C2CD8B1E8CD46A00E2FB5F /* MYInformationImageViewController.m */; };
+		A2C2CD961E8CD46A00E2FB5F /* MYInformationImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C2CD8C1E8CD46A00E2FB5F /* MYInformationImageViewController.xib */; };
 		A2C494761E83765A00BE44C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C494751E83765A00BE44C0 /* main.m */; };
 		A2C494791E83765A00BE44C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C494781E83765A00BE44C0 /* AppDelegate.m */; };
-		A2C4947C1E83765A00BE44C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C4947B1E83765A00BE44C0 /* ViewController.m */; };
 		A2C4947F1E83765A00BE44C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C4947D1E83765A00BE44C0 /* Main.storyboard */; };
 		A2C494811E83765A00BE44C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C494801E83765A00BE44C0 /* Assets.xcassets */; };
 		A2C494841E83765A00BE44C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C494821E83765A00BE44C0 /* LaunchScreen.storyboard */; };
 		A2C4948F1E83765A00BE44C0 /* MYImageGPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C4948E1E83765A00BE44C0 /* MYImageGPSTests.m */; };
 		A2C4949A1E83765A00BE44C0 /* MYImageGPSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C494991E83765A00BE44C0 /* MYImageGPSUITests.m */; };
-		A2C494A91E83769300BE44C0 /* MYGPSExif.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C494A81E83769300BE44C0 /* MYGPSExif.m */; };
 		A2C494AC1E8376D900BE44C0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C494AB1E8376D900BE44C0 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,12 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2C2CD751E8CD46A00E2FB5F /* MYGPSExif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGPSExif.h; sourceTree = "<group>"; };
+		A2C2CD761E8CD46A00E2FB5F /* MYGPSExif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGPSExif.m; sourceTree = "<group>"; };
+		A2C2CD7A1E8CD46A00E2FB5F /* MYAdressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAdressViewController.h; sourceTree = "<group>"; };
+		A2C2CD7B1E8CD46A00E2FB5F /* MYAdressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAdressViewController.m; sourceTree = "<group>"; };
+		A2C2CD7C1E8CD46A00E2FB5F /* MYAdressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYAdressViewController.xib; sourceTree = "<group>"; };
+		A2C2CD841E8CD46A00E2FB5F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2C2CD851E8CD46A00E2FB5F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2C2CD8A1E8CD46A00E2FB5F /* MYInformationImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYInformationImageViewController.h; sourceTree = "<group>"; };
+		A2C2CD8B1E8CD46A00E2FB5F /* MYInformationImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYInformationImageViewController.m; sourceTree = "<group>"; };
+		A2C2CD8C1E8CD46A00E2FB5F /* MYInformationImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYInformationImageViewController.xib; sourceTree = "<group>"; };
 		A2C494711E83765A00BE44C0 /* MYImageGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYImageGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C494751E83765A00BE44C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2C494771E83765A00BE44C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2C494781E83765A00BE44C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A2C4947A1E83765A00BE44C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A2C4947B1E83765A00BE44C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A2C4947E1E83765A00BE44C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2C494801E83765A00BE44C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2C494831E83765A00BE44C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,8 +65,6 @@
 		A2C494951E83765A00BE44C0 /* MYImageGPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYImageGPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C494991E83765A00BE44C0 /* MYImageGPSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageGPSUITests.m; sourceTree = "<group>"; };
 		A2C4949B1E83765A00BE44C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2C494A71E83769300BE44C0 /* MYGPSExif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGPSExif.h; sourceTree = "<group>"; };
-		A2C494A81E83769300BE44C0 /* MYGPSExif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGPSExif.m; sourceTree = "<group>"; };
 		A2C494AB1E8376D900BE44C0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -84,6 +94,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2C2CD741E8CD46A00E2FB5F /* GPSExif */ = {
+			isa = PBXGroup;
+			children = (
+				A2C2CD751E8CD46A00E2FB5F /* MYGPSExif.h */,
+				A2C2CD761E8CD46A00E2FB5F /* MYGPSExif.m */,
+			);
+			path = GPSExif;
+			sourceTree = "<group>";
+		};
+		A2C2CD771E8CD46A00E2FB5F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A2C2CD781E8CD46A00E2FB5F /* AdressChange */,
+				A2C2CD821E8CD46A00E2FB5F /* HomePage */,
+				A2C2CD881E8CD46A00E2FB5F /* InformaTion */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A2C2CD781E8CD46A00E2FB5F /* AdressChange */ = {
+			isa = PBXGroup;
+			children = (
+				A2C2CD791E8CD46A00E2FB5F /* Controller */,
+				A2C2CD801E8CD46A00E2FB5F /* Model */,
+				A2C2CD811E8CD46A00E2FB5F /* View */,
+			);
+			path = AdressChange;
+			sourceTree = "<group>";
+		};
+		A2C2CD791E8CD46A00E2FB5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2C2CD7A1E8CD46A00E2FB5F /* MYAdressViewController.h */,
+				A2C2CD7B1E8CD46A00E2FB5F /* MYAdressViewController.m */,
+				A2C2CD7C1E8CD46A00E2FB5F /* MYAdressViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2C2CD801E8CD46A00E2FB5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2C2CD811E8CD46A00E2FB5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2C2CD821E8CD46A00E2FB5F /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A2C2CD831E8CD46A00E2FB5F /* Controller */,
+				A2C2CD861E8CD46A00E2FB5F /* Model */,
+				A2C2CD871E8CD46A00E2FB5F /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		A2C2CD831E8CD46A00E2FB5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2C2CD841E8CD46A00E2FB5F /* ViewController.h */,
+				A2C2CD851E8CD46A00E2FB5F /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2C2CD861E8CD46A00E2FB5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2C2CD871E8CD46A00E2FB5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2C2CD881E8CD46A00E2FB5F /* InformaTion */ = {
+			isa = PBXGroup;
+			children = (
+				A2C2CD891E8CD46A00E2FB5F /* Controller */,
+				A2C2CD8D1E8CD46A00E2FB5F /* Model */,
+				A2C2CD8E1E8CD46A00E2FB5F /* View */,
+			);
+			path = InformaTion;
+			sourceTree = "<group>";
+		};
+		A2C2CD891E8CD46A00E2FB5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2C2CD8A1E8CD46A00E2FB5F /* MYInformationImageViewController.h */,
+				A2C2CD8B1E8CD46A00E2FB5F /* MYInformationImageViewController.m */,
+				A2C2CD8C1E8CD46A00E2FB5F /* MYInformationImageViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2C2CD8D1E8CD46A00E2FB5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2C2CD8E1E8CD46A00E2FB5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A2C494681E83765A00BE44C0 = {
 			isa = PBXGroup;
 			children = (
@@ -108,17 +238,15 @@
 		A2C494731E83765A00BE44C0 /* MYImageGPS */ = {
 			isa = PBXGroup;
 			children = (
+				A2C2CD741E8CD46A00E2FB5F /* GPSExif */,
+				A2C2CD771E8CD46A00E2FB5F /* Main */,
 				A2C494771E83765A00BE44C0 /* AppDelegate.h */,
 				A2C494781E83765A00BE44C0 /* AppDelegate.m */,
-				A2C4947A1E83765A00BE44C0 /* ViewController.h */,
-				A2C4947B1E83765A00BE44C0 /* ViewController.m */,
 				A2C4947D1E83765A00BE44C0 /* Main.storyboard */,
 				A2C494801E83765A00BE44C0 /* Assets.xcassets */,
 				A2C494821E83765A00BE44C0 /* LaunchScreen.storyboard */,
 				A2C494851E83765A00BE44C0 /* Info.plist */,
 				A2C494741E83765A00BE44C0 /* Supporting Files */,
-				A2C494A71E83769300BE44C0 /* MYGPSExif.h */,
-				A2C494A81E83769300BE44C0 /* MYGPSExif.m */,
 			);
 			path = MYImageGPS;
 			sourceTree = "<group>";
@@ -268,7 +396,9 @@
 			files = (
 				A2C494841E83765A00BE44C0 /* LaunchScreen.storyboard in Resources */,
 				A2C494811E83765A00BE44C0 /* Assets.xcassets in Resources */,
+				A2C2CD911E8CD46A00E2FB5F /* MYAdressViewController.xib in Resources */,
 				A2C4947F1E83765A00BE44C0 /* Main.storyboard in Resources */,
+				A2C2CD961E8CD46A00E2FB5F /* MYInformationImageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +423,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2C4947C1E83765A00BE44C0 /* ViewController.m in Sources */,
+				A2C2CD941E8CD46A00E2FB5F /* ViewController.m in Sources */,
+				A2C2CD951E8CD46A00E2FB5F /* MYInformationImageViewController.m in Sources */,
 				A2C494791E83765A00BE44C0 /* AppDelegate.m in Sources */,
-				A2C494A91E83769300BE44C0 /* MYGPSExif.m in Sources */,
 				A2C494761E83765A00BE44C0 /* main.m in Sources */,
+				A2C2CD901E8CD46A00E2FB5F /* MYAdressViewController.m in Sources */,
+				A2C2CD8F1E8CD46A00E2FB5F /* MYGPSExif.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +579,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48675G997Y;
 				INFOPLIST_FILE = MYImageGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pongo.MYImageGPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +592,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48675G997Y;
 				INFOPLIST_FILE = MYImageGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pongo.MYImageGPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +668,7 @@
 				A2C494A01E83765A00BE44C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2C494A11E83765A00BE44C0 /* Build configuration list for PBXNativeTarget "MYImageGPSTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +677,7 @@
 				A2C494A31E83765A00BE44C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2C494A41E83765A00BE44C0 /* Build configuration list for PBXNativeTarget "MYImageGPSUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +686,7 @@
 				A2C494A61E83765A00BE44C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

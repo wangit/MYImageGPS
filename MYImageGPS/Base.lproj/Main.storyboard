@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,76 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xT9-z2-Jzh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="267"/>
+                                <color key="backgroundColor" red="1" green="0.80145579580000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="267" id="1xh-hf-6t0"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOm-Jh-zo0">
+                                <rect key="frame" x="16" y="275" width="343" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.80145579580000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4v7-Du-VXG"/>
+                                </constraints>
+                                <state key="normal" title="选择图片">
+                                    <color key="titleShadowColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="imageSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ACk-iK-qZT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvQ-Lh-CC6">
+                                <rect key="frame" x="16" y="327" width="343" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.80145579580000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ENa-cE-93D"/>
+                                </constraints>
+                                <state key="normal" title="选择地址">
+                                    <color key="titleShadowColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="adressSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9KR-Vh-5vQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1b-hh-1gg">
+                                <rect key="frame" x="0.0" y="637" width="375" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80145579580000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="mZd-lZ-dcn"/>
+                                </constraints>
+                                <state key="normal" title="详细信息"/>
+                                <connections>
+                                    <action selector="informationTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lIY-Ka-9Dg"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MOm-Jh-zo0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8gr-ol-NWd"/>
+                            <constraint firstItem="xT9-z2-Jzh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BJR-aB-gDN"/>
+                            <constraint firstItem="MOm-Jh-zo0" firstAttribute="top" secondItem="xT9-z2-Jzh" secondAttribute="bottom" constant="8" id="D5n-LB-2bD"/>
+                            <constraint firstAttribute="trailing" secondItem="xT9-z2-Jzh" secondAttribute="trailing" id="Hv9-li-oBn"/>
+                            <constraint firstItem="nvQ-Lh-CC6" firstAttribute="top" secondItem="MOm-Jh-zo0" secondAttribute="bottom" constant="8" symbolic="YES" id="LBA-pY-AJr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="H1b-hh-1gg" secondAttribute="bottom" id="V78-vy-KqA"/>
+                            <constraint firstItem="H1b-hh-1gg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YA9-ck-4nW"/>
+                            <constraint firstItem="MOm-Jh-zo0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="mGK-rS-XXa"/>
+                            <constraint firstItem="nvQ-Lh-CC6" firstAttribute="trailing" secondItem="MOm-Jh-zo0" secondAttribute="trailing" id="qva-Xf-Qkq"/>
+                            <constraint firstItem="xT9-z2-Jzh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uLd-db-6Dl"/>
+                            <constraint firstItem="nvQ-Lh-CC6" firstAttribute="leading" secondItem="MOm-Jh-zo0" secondAttribute="leading" id="xO9-VT-zut"/>
+                            <constraint firstAttribute="trailing" secondItem="H1b-hh-1gg" secondAttribute="trailing" id="zAL-l5-rSe"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="headImage" destination="xT9-z2-Jzh" id="Zz3-pQ-loW"/>
+                        <outlet property="imageSelect" destination="xT9-z2-Jzh" id="zEk-aA-0wt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="92" y="67.916041979010501"/>
         </scene>
     </scenes>
 </document>
