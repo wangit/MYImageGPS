@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2C2CD8F1E8CD46A00E2FB5F /* MYGPSExif.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C2CD761E8CD46A00E2FB5F /* MYGPSExif.m */; };
+		A265A2F11FD0164500F7FA29 /* MYGPSExif.m in Sources */ = {isa = PBXBuildFile; fileRef = A265A2EF1FD0164500F7FA29 /* MYGPSExif.m */; };
 		A2C2CD901E8CD46A00E2FB5F /* MYAdressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C2CD7B1E8CD46A00E2FB5F /* MYAdressViewController.m */; };
 		A2C2CD911E8CD46A00E2FB5F /* MYAdressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C2CD7C1E8CD46A00E2FB5F /* MYAdressViewController.xib */; };
 		A2C2CD941E8CD46A00E2FB5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C2CD851E8CD46A00E2FB5F /* ViewController.m */; };
@@ -41,8 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A2C2CD751E8CD46A00E2FB5F /* MYGPSExif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGPSExif.h; sourceTree = "<group>"; };
-		A2C2CD761E8CD46A00E2FB5F /* MYGPSExif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGPSExif.m; sourceTree = "<group>"; };
+		A265A2EF1FD0164500F7FA29 /* MYGPSExif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGPSExif.m; sourceTree = "<group>"; };
+		A265A2F01FD0164500F7FA29 /* MYGPSExif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGPSExif.h; sourceTree = "<group>"; };
 		A2C2CD7A1E8CD46A00E2FB5F /* MYAdressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAdressViewController.h; sourceTree = "<group>"; };
 		A2C2CD7B1E8CD46A00E2FB5F /* MYAdressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAdressViewController.m; sourceTree = "<group>"; };
 		A2C2CD7C1E8CD46A00E2FB5F /* MYAdressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYAdressViewController.xib; sourceTree = "<group>"; };
@@ -94,11 +94,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A2C2CD741E8CD46A00E2FB5F /* GPSExif */ = {
+		A265A2EE1FD0164500F7FA29 /* GPSExif */ = {
 			isa = PBXGroup;
 			children = (
-				A2C2CD751E8CD46A00E2FB5F /* MYGPSExif.h */,
-				A2C2CD761E8CD46A00E2FB5F /* MYGPSExif.m */,
+				A265A2EF1FD0164500F7FA29 /* MYGPSExif.m */,
+				A265A2F01FD0164500F7FA29 /* MYGPSExif.h */,
 			);
 			path = GPSExif;
 			sourceTree = "<group>";
@@ -217,6 +217,7 @@
 		A2C494681E83765A00BE44C0 = {
 			isa = PBXGroup;
 			children = (
+				A265A2EE1FD0164500F7FA29 /* GPSExif */,
 				A2C494731E83765A00BE44C0 /* MYImageGPS */,
 				A2C4948D1E83765A00BE44C0 /* MYImageGPSTests */,
 				A2C494981E83765A00BE44C0 /* MYImageGPSUITests */,
@@ -238,7 +239,6 @@
 		A2C494731E83765A00BE44C0 /* MYImageGPS */ = {
 			isa = PBXGroup;
 			children = (
-				A2C2CD741E8CD46A00E2FB5F /* GPSExif */,
 				A2C2CD771E8CD46A00E2FB5F /* Main */,
 				A2C494771E83765A00BE44C0 /* AppDelegate.h */,
 				A2C494781E83765A00BE44C0 /* AppDelegate.m */,
@@ -425,10 +425,10 @@
 			files = (
 				A2C2CD941E8CD46A00E2FB5F /* ViewController.m in Sources */,
 				A2C2CD951E8CD46A00E2FB5F /* MYInformationImageViewController.m in Sources */,
+				A265A2F11FD0164500F7FA29 /* MYGPSExif.m in Sources */,
 				A2C494791E83765A00BE44C0 /* AppDelegate.m in Sources */,
 				A2C494761E83765A00BE44C0 /* main.m in Sources */,
 				A2C2CD901E8CD46A00E2FB5F /* MYAdressViewController.m in Sources */,
-				A2C2CD8F1E8CD46A00E2FB5F /* MYGPSExif.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
