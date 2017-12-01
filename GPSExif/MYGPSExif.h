@@ -24,7 +24,11 @@
 
 #import <Foundation/Foundation.h>
 #import <ImageIO/ImageIO.h>
+typedef void(^GPSExifInfo)(NSDictionary *info);
 
 @interface MYGPSExif : NSObject
+
++ (void )assetURL:(NSURL*)url :(GPSExifInfo)Info;
+
 
 @end

@@ -97,8 +97,8 @@
 		A265A2EE1FD0164500F7FA29 /* GPSExif */ = {
 			isa = PBXGroup;
 			children = (
-				A265A2EF1FD0164500F7FA29 /* MYGPSExif.m */,
 				A265A2F01FD0164500F7FA29 /* MYGPSExif.h */,
+				A265A2EF1FD0164500F7FA29 /* MYGPSExif.m */,
 			);
 			path = GPSExif;
 			sourceTree = "<group>";

@@ -28,6 +28,8 @@
 #include "AssetsLibrary/ALAssetsLibrary.h"
 #include "AssetsLibrary/ALAssetRepresentation.h"
 #import "MYInformationImageViewController.h"
+#import "MYGPSExif.h"
+
 #ifdef DEBUG
 #define GPSLog(format, ...) printf("class: <%p %s:(%d) > method: %s \n%s\n", self, [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __PRETTY_FUNCTION__, [[NSString stringWithFormat:(format), ##__VA_ARGS__] UTF8String] )
 #else
@@ -133,8 +135,11 @@
     
     self.headImage.clipsToBounds = YES;
     self.headImage.image = assetImage;
+    [MYGPSExif assetURL:assetURL :^(NSDictionary *info) {
+        NSLog(@"%@",info);
+    }];
 
-
+/*
     //NSLog(@"%@",assetMetadata);
 
     __block NSMutableDictionary *imageMetadata = nil;
@@ -170,7 +175,7 @@
             failureBlock:^(NSError *error) {
             }];
 
-    
+    */
   //[self saveImageToPhotos:imageDataShow];
 
 
